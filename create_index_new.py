@@ -6,6 +6,7 @@ from es_index.log_install import LogInstall
 from es_index.log_community_search import LogCommunitySearch
 
 def job():
+    
     LogSearch().create_index()
     LogDownload().create_index()
     LogPreDownload().create_index()
